@@ -6,7 +6,7 @@ public class Dog extends Pet {
         this.breed = "unknown";
     }
 
-        public Dog(String Name, int age, String breed){
+        public Dog(String name, int age, String breed){
             super(name, age);
                 this.breed = breed;
         }
@@ -28,7 +28,7 @@ public class Dog extends Pet {
 
 
     // Getter
-    public String getbreed() {
+    public String getBreed() {
         return this.breed;
     }
 
